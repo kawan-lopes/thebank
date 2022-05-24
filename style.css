@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,800;1,100;1,600;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+
+/* ===============lado esquerdo =============== */
+
+.esquerda {
+    margin-top: 40px;
+    width: 20vw;
+    height: 50vh;
+    max-height: 450px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    left: 50px;
+    top: 50px;
+}
+
+.perfil {
+    width: 95%;
+    margin: 5px 10px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+.circulo {
+    background-color: rgb(180, 180, 180);
+    padding: 22px;
+    border-radius: 50%;
+}
+
+.menu {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu h1 {
+    font-size: 25px;
+    padding: 5px 0 5px 25px;
+    cursor: pointer;
+}
+
+.menu h1.active {
+    border-left: 3px solid #FF5A00;
+    color: #FF5A00;
+}
+
+
+/* ==================== lado direito ==================== */
+
+.direito {
+    margin-top: 40px;
+    width: 70%;
+    height: 87vh;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.30);
+    border-radius: 20px;
+    right: 70px;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topo {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topo-esquerda {
+    width: 350px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.topo-esquerda p {
+    font-size: 20px;
+    width: 60%;
+    font-weight: 700;
+}
+
+.topo-direita {
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topo-direita h1 {
+    width: 40%;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.topo-direita p {
+    font-size: 30px;
+    width: 50%;
+    color: #FF5A00;
+    font-weight: 700;
+}
+
+
+/* =================== tela de transferencia ===================*/
+
+.bottom {
+    margin-top: 20px;
+    width: 70%;
+    height: 70%;
+    background-color: #FF5A00;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bottom h1 {
+    width: 100%;
+    height: 5%;
+    text-align: center;
+    margin-top: 10px;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.bottom form {
+    margin-bottom: 2vh;
+    width: 100%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+}
+
+.bottom form input.grande {
+    margin-left: 15%;
+    width: 60%;
+    padding: 0 15px;
+    height: 40px;
+    border-radius: 13px;
+    border: none;
+}
+
+.bottom form input::placeholder {
+    margin-left: 20px;
+    padding: 0 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.bottom form input.pequeno {
+    padding: 0 15px;
+    margin-left: 15%;
+    width: 20%;
+    height: 40px;
+    border-radius: 13px;
+    border: none;
+}
+
+.bottom form input.pequeno::placeholder {
+    padding: 0 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.btn {
+    margin-left: 40%;
+    margin-top: 5vh;
+    width: 20%;
+    height: 40px;
+    border-radius: 13px;
+    border: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(247, 137, 48);
+    color: #FFFFFF;
+    transition: 2s;
+}
+
+.btnSair {
+    width: 75px;
+    height: 40px;
+    border-radius: 13px;
+    border: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.btnSair:hover {
+    background-color: rgb(247, 137, 48);
+    color: #FFFFFF;
+    transition: 2s;
+}
+
+.menu form {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom form label {
+    margin-left: 15%;
+    width: 100%;
+    color: #FFFFFF;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="../img/logo.svg" alt="">
+        </div>
+    </header>
+    <main>
+        <div class="esquerda">
+            <img src="../img/cofre.svg" alt="">
+        </div>
+        <div class="direita">
+            <div class="container">
+                <h1>Crie sua conta</h1>
+                <a href="./login.php">Já tenho uma conta</a>
+                <p>Crie sua conta conosco e faça transferencia com facilidade.</p>
+                <form action="testeregistro.php" method="post">
+                    <input class="input" type="text" name="nome" placeholder="Digite seu nome" required maxlength="30">
+                    <input class="input" type="text" name="cpf" placeholder="Digite seu CPF" required maxlength="11" minlength="11">
+
+                    <input class="input" type="password" name="senha" placeholder="Digite sua senha" required maxlength="16" minlength="6">
+                    <input class="btn" type="submit" name="submit" value="Registrar-se">
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+
+
+
+</html>
