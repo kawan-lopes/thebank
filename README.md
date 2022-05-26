@@ -13,14 +13,9 @@ Pensei nesse projeto pois seria desafiador,foi nessesario criar o banco de dados
 #Como testar?
 
 Baixe a pasta completa;
-
 Extrair a pasta zip;
-
 Coloque a pasta em um servidor (xampp por exemplo);
-
 Abra a pasta "db";
-
 Crie o banco de dados com o codigo que esta no bloco de notas;
-
 Inicie o servidor e abra o projeto;
 
