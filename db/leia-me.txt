@@ -1,1 +1,7 @@
-coloque a pasta "thebank" na pasta localizada em " C:\xampp\mysql\data "
+create table usuarios(
+    id_user int(4) primary key auto increment not null,
+    nome varchar(30) not null,
+    cpf int(11) not null,
+    saldo decimal(7,2) not null,
+    senha varchar(30) not null
+)
